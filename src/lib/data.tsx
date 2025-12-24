@@ -159,7 +159,7 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'Idea',
     description:
       'Платформа для продажи товаров, а также для удобного управления заказами на разных устройствах.',
-    url: 'https://github.com/andissun1/web-store',
+    url: 'https://web-store-blush-five.vercel.app',
     previewImage: idea,
     technologies: [
       'React',
