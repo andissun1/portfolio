@@ -20,7 +20,7 @@ import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
 import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
+import wildlife from '/public/images/wildlife.jpeg';
 import idea from '/public/images/idea.png';
 import toDo from '/public/images/ToDo.png';
 
@@ -158,7 +158,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Idea',
     description:
-      'Платформа для продажи товаров, а также для удобного управления заказами на разных устройствах.',
+      'Платформа для продажи товаров и удобного управления заказами на разных устройствах.',
     url: 'https://web-store-blush-five.vercel.app',
     previewImage: idea,
     technologies: [
@@ -174,9 +174,9 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Blog',
     description:
-      'Платформа для публикации статей и обсуждения их. Довольно гибкая настройка ролей для управления доступами.',
+      'Сайт с возможностями публикации статей и обсуждения их. Имеется гибкая настройка ролей для управления контентом.',
     url: 'https://github.com/andissun1/Blog/tree/FinalVersion',
-    previewImage: ProjectFiskil,
+    previewImage: wildlife,
     technologies: [
       'React',
       'Express.js',
@@ -188,9 +188,9 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
-    name: 'To-Do List',
+    name: 'Notes',
     description:
-      'Приложение заметок с обновлением данных в реальном времени на всех устройствах.',
+      'Простое и удобное приложение заметок с обновлением данных в реальном времени на разных устройствах.',
     url: 'https://to-do-list-andis.web.app/App',
     previewImage: toDo,
     technologies: ['React', 'Firebase', 'Javascript', 'modules CSS', 'Redux Toolkit'],
