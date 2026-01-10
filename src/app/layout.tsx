@@ -8,7 +8,7 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Андрей Кочнев | Frontend Developer';
+const title = 'Андрей Кочнев | Fullstack Developer';
 
 export const metadata: Metadata = {
   title,
